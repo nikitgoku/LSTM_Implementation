@@ -72,3 +72,8 @@ The Embedding Layer maps each word into an N-dimensional vector of real number, 
 The LSTM layer the fast version of LSTM which is optimised for GPUs. This layer looks at the sequence of words in the review, along with their word embeddings and uses both of these to determine to sentiment of a given review.
 
 All LSTM units are connected to a single node in the dense layer. A sigmoid activation function determines the output from this node - a value between 0 and 1. Closer to 0 indicates a negative review. Closer to 1 indicates a positive review.
+    
+### References
+- [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+- [A Gentle Introduction to RNN Unrolling](https://machinelearningmastery.com/rnn-unrolling/)
+- [Explaining Recurrent Neural Networks](https://www.bouvet.no/bouvet-deler/explaining-recurrent-neural-networks)
